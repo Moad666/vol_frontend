@@ -7,12 +7,14 @@ import { ClientComponent } from './client/client.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { UpdateClientComponent } from './update-client/update-client.component';
+import { VolComponent } from './vol/vol.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ClientComponent,
-    UpdateClientComponent
+    UpdateClientComponent,
+    VolComponent
   ],
   imports: [
     BrowserModule,

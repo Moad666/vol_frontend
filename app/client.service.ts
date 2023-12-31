@@ -22,7 +22,6 @@ export class ClientService {
 
     createClient(client : Client): Observable<Object>{
       return this.httpClient.post(`${this.baseUrl}/create`, client);
-
     }
     updateClientl(id:number|undefined, client : Client): Observable<Object>{
       return this.httpClient.put(`${this.baseUrl}/id/${id}`,client);
